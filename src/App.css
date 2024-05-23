@@ -1,0 +1,64 @@
+.card {
+  width: 350px;
+  height: 420px;
+  margin: 50px auto;
+  background-color:#84aefc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formula, .resulta {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.formula input{
+  width: 340px;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+
+.resulta input{
+  width: 140px;
+  height: 40px;
+  color: #19d645;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.calculater {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  
+}
+
+.btns {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #164299;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+.c, .eq {
+  grid-column: span 2;
+  background-color:#26cb91;
+  color: #fffefe;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.eq {
+  grid-column: span 4;
+  height: 55px;
+  font-size: 40px;
+
+}
